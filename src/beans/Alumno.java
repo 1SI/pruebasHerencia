@@ -9,6 +9,7 @@ package beans;
  * @author jorge
  */
 public class Alumno extends Persona {
+    
     private int codAlum;
 
     public Alumno(int codAlum, int dni, String nombre) {
@@ -19,6 +20,5 @@ public class Alumno extends Persona {
     public String toString() {
         return super.toString()+"Alumno{" + "codAlum=" + codAlum + '}';
     }
-
-
+    
 }

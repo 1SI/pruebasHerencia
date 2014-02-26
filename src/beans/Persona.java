@@ -10,7 +10,8 @@ package beans;
  */
 public class Persona {
     private int dni;
-    private String nombre;
+    protected String nombre;
+    
 
     public Persona(int dni, String nombre) {
         this.dni = dni;
