@@ -18,6 +18,7 @@ public class Persona {
         this.nombre = nombre;
     }
 
+    @Override
     public String toString() {
         return "Persona{" + "dni=" + dni + ", nombre=" + nombre + '}';
     }
